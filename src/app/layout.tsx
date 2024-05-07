@@ -1,6 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import '@/styles/globals.css';
-import { GoogleTagManager } from '@next/third-parties/google';
+import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google';
 import { Bebas_Neue, Inter } from 'next/font/google';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
@@ -25,13 +25,13 @@ export const metadata: Metadata = {
     template: 'João e Maria - Cafeteria | s%',
   },
   description: 'Apaixonados por café',
-  keywords: 'João e Maria, Cafeteria, Café artesanal, jardim são luis',
+  keywords: 'João e Maria, cafeteria, café artesanal, jardim são luis',
   robots: {
     index: true,
     follow: true,
     nocache: false,
   },
-  metadataBase: new URL('https://joao-maria-cafeteria.vercel.app/'),
+  metadataBase: new URL('https://joaoemaria-cafeteria.vercel.app/'),
   alternates: {
     canonical: '/',
     languages: {
@@ -46,13 +46,13 @@ export const metadata: Metadata = {
     siteId: '',
     creatorId: '',
     images: {
-      url: 'https://joao-maria-cafeteria.vercel.app/opengraph-image.jpg',
+      url: 'https://joaoemaria-cafeteria.vercel.app/opengraph-image.jpg',
       alt: 'João e Maria - Cafeteria',
     },
   },
   verification: {
     google:
-      'google-site-verification=zOiRCOm0Gug2Y006iWlYrBEEQEZdRCZQwnLXlfyLUWU',
+      'google-site-verification=3SlupKUH0CMNB0NobkUuwdDCRA9J88hg5hWKaak5rzo',
   },
 };
 
@@ -70,22 +70,23 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'AboutPage',
     name: 'João e Maria - Cafeteria',
-    image: 'https://joao-maria-cafeteria.vercel.app/opengraph-image.jpg',
+    image: 'https://joaoemaria-cafeteria.vercel.app/opengraph-image.jpg',
     description: 'Apaixonados por café.',
-    url: 'https://joao-maria-cafeteria.vercel.app/',
+    url: 'https://joaoemaria-cafeteria.vercel.app/',
     publisher: {
       '@type': 'Organization',
       name: 'João e Maria - Cafeteria',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://joao-maria-cafeteria.vercel.app/favicon.ico',
+        url: 'https://joaoemaria-cafeteria.vercel.app/favicon.ico',
       },
     },
   };
 
   return (
     <html className="scroll-smooth" lang="pt-br">
-      <GoogleTagManager gtmId="G-98XVLPYPMV" />
+      <GoogleTagManager gtmId="GTM-NW7K2XL8" />
+      <GoogleAnalytics gaId="G-M5HPYZ8C4X" />
       {/* Add JSON-LD to your page */}
       <body
         className={`${bebas_neue.variable} ${inter.variable} selection:bg-[#322C2B] selection:text-white bg-[#ffffff] text-322C2B`}

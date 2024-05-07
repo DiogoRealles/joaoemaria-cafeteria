@@ -32,7 +32,7 @@ const Index = () => {
           data-aos-duration="500">Aqui nós somos apaixonados por café, e todo o processo até ele chegar na sua xícara. Prezamos por produtos de alta qualidade e atendimento excepcional, para garantir que a sua experiência seja o nosso maior valor</p>
 
             <Link
-              href="https://api.whatsapp.com/send/?phone=5511987909927&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
+              href="https://api.whatsapp.com/send/?phone=5511954439424&text=Ola%21+Vim+pelo+site%2C+gostaria+de+reservar+uma+mesa.&type=phone_number&app_absent=0"
               className="text-[16px] mx-auto w-fit group text-center inline-flex justify-center items-center gap-2 transition-all whitespace-nowrap
               py-4 px-8 rounded-[6px] bg-coffee-light text-white font-bold uppercase ease-linear"
               target=" _blank"

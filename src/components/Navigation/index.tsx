@@ -111,7 +111,7 @@ const Index = () => {
               </li>
               <li className="text-[32px] text-black hover:text-black/60 ease-linear">
                 <Link
-                  href=""
+                  href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
                   title="Ir para Facebook João & Maria - Cafeteria"
                   aria-label="Ir para Facebook João & Maria - Cafeteria"

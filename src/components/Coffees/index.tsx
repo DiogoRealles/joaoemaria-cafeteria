@@ -59,7 +59,7 @@ const Index = () => {
         </div>
 
         <Swiper
-          className="md:!px-0"
+          className="md:!px-0 !py-2"
           slidesPerView={1}
           spaceBetween={18}
           speed={800}

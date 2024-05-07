@@ -22,7 +22,7 @@ const Index = () => {
               <div className="w-[60px] h-[60px] overflow-hidden rounded-full mb-4">
                 <Image
                   className="w-full h-full"
-                  src="/logo.jpg"
+                  src="/logo.png"
                   alt=""
                   width={280}
                   height={280}
@@ -39,7 +39,7 @@ const Index = () => {
                 <li className="text-[32px]">
                   <Link
                     className="text-[#322C2B] hover:bg-coffee-light/80"
-                    href=""
+                    href="https://www.instagram.com/joaoemaria.cafeteria/"
                     target="_blank"
                     title="Ir para Instagram João & Maria - Cafeteria"
                     aria-label="Ir para Instagram João & Maria - Cafeteria"
@@ -50,7 +50,7 @@ const Index = () => {
                 <li className="text-[32px]">
                   <Link
                     className="text-[#322C2B] hover:bg-coffee-light/80"
-                    href=""
+                    href="https://www.instagram.com/joaoemaria.cafeteria/"
                     target="_blank"
                     title="Ir para Facebook João & Maria - Cafeteria"
                     aria-label="Ir para Facebook João & Maria - Cafeteria"
@@ -61,7 +61,7 @@ const Index = () => {
                 <li className="text-[32px]">
                   <Link
                     className="text-[#322C2B] hover:bg-coffee-light/80"
-                    href=""
+                    href="https://api.whatsapp.com/send/?phone=5511954439424&text=Ola%21+Vim+pelo+site%2C+gostaria+de+agendar+uma+prova.&type=phone_number&app_absent=0"
                     target="_blank"
                     title="Ir para WhatsApp João & Maria - Cafeteria"
                     aria-label="Ir para WhatsApp João & Maria - Cafeteria"

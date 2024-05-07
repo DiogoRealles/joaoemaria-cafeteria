@@ -1,14 +1,16 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const sitemap = fetch('https://joao-maria-cafeteria.vercel.app/sitemapa.xml');
+  const baseURL = 'https://joaoemaria-cafeteria.vercel.app/';
 
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: '/private/',
-    },
-    sitemap: 'https://joao-maria-cafeteria.vercel.app/sitemapa.xml',
+    rules: [
+      {
+        userAgent: '*',
+        allow: '/',
+        disallow: ['/admin', '/privacy', '/private'],
+      },
+    ],
+    sitemap: `${baseURL}/sitemap.xml`,
   };
 }
