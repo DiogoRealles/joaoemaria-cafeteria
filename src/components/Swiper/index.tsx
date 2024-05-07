@@ -95,9 +95,9 @@ const Index = () => {
             quality={90}
           />
 
-          <h4 className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
+          <p className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
             Samantha Pereira
-          </h4>
+          </p>
           <span className="inline-block font-body font-normal text-sm text-[#322C2B]/80 capitalize">
             alguns dias atrás
           </span>
@@ -126,9 +126,9 @@ const Index = () => {
             quality={90}
           />
 
-          <h4 className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
+          <p className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
             Mari Ballejo
-          </h4>
+          </p>
           <span className="inline-block font-body font-normal text-sm text-[#322C2B]/80 capitalize">
             alguns dias atrás
           </span>
@@ -158,9 +158,9 @@ const Index = () => {
             quality={90}
           />
 
-          <h4 className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
+          <p className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
             Beatriz Lemos
-          </h4>
+          </p>
           <span className="inline-block font-body font-normal text-sm text-[#322C2B]/80 capitalize">
             algumas semanas atrás
           </span>
@@ -191,9 +191,9 @@ const Index = () => {
             quality={90}
           />
 
-          <h4 className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
+          <p className="text-xl text-[#322C2B]/80  font-body font-semibold mb-2">
             Diogo Gomes
-          </h4>
+          </p>
           <span className="inline-block font-body font-normal text-sm text-[#322C2B]/80 capitalize">
             Mês passado
           </span>

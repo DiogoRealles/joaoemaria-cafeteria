@@ -106,9 +106,9 @@ const Index = () => {
                   Metallic <br /> Coffee
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 16,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>
@@ -130,9 +130,9 @@ const Index = () => {
                   Dummya <br /> Coffee
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 18,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>
@@ -154,9 +154,9 @@ const Index = () => {
                   Coffea <br /> Canephor
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 20,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>
@@ -178,9 +178,9 @@ const Index = () => {
                   Coffee <br /> Mastems Specialty
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 19,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>
@@ -202,9 +202,9 @@ const Index = () => {
                   Coffee <br /> Beans People
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 20,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>
@@ -226,9 +226,9 @@ const Index = () => {
                   Vacuum <br /> Coffee
                 </p>
 
-                <h4 className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
+                <p className="text-[22px] text-[#322C2B]/80 font-body font-semibold">
                   R$ 22,99
-                </h4>
+                </p>
               </div>
             </Link>
           </SwiperSlide>

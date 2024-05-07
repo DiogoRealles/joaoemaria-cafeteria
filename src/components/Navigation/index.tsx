@@ -103,12 +103,19 @@ const Index = () => {
                 <Link
                   href="https://www.instagram.com/joaoemaria.cafeteria/"
                   target="_blank"
+                  title="Ir para Instagram João & Maria - Cafeteria"
+                  aria-label="Ir para Instagram João & Maria - Cafeteria"
                 >
                   <FaInstagram />
                 </Link>
               </li>
               <li className="text-[32px] text-black hover:text-black/60 ease-linear">
-                <Link href="" target="_blank">
+                <Link
+                  href=""
+                  target="_blank"
+                  title="Ir para Facebook João & Maria - Cafeteria"
+                  aria-label="Ir para Facebook João & Maria - Cafeteria"
+                >
                   <FaFacebookSquare />
                 </Link>
               </li>
