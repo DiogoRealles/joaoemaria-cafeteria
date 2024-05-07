@@ -87,10 +87,11 @@ export default function RootLayout({
     <html className="scroll-smooth" lang="pt-br">
       <GoogleTagManager gtmId="GTM-NW7K2XL8" />
       <GoogleAnalytics gaId="G-M5HPYZ8C4X" />
-      {/* Add JSON-LD to your page */}
+
       <body
         className={`${bebas_neue.variable} ${inter.variable} selection:bg-[#322C2B] selection:text-white bg-[#ffffff] text-322C2B`}
       >
+        {/* Add JSON-LD to your page */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
